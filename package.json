@@ -1,0 +1,23 @@
+{
+  "name": "webpack-explore",
+  "version": "1.0.0",
+  "description": "A simple demo to explore how webpack works.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "node ./src/build.js"
+  },
+  "keywords": [
+    "webpack",
+    "babel",
+    "acron"
+  ],
+  "author": "Hehaonan",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.19.1",
+    "@babel/parser": "^7.19.1",
+    "@babel/preset-env": "^7.19.1",
+    "@babel/traverse": "^7.19.1"
+  }
+}
